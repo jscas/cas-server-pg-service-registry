@@ -1,0 +1,26 @@
+{
+  "name": "cas-server-pg-service-registry",
+  "version": "0.1.0",
+  "description": "Provides a reference cas-server service registry backed by a PostgreSQL DB",
+  "main": "registry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cas-server",
+    "cas",
+    "apereo",
+    "jasig"
+  ],
+  "homepage": "https://github.com/jscas/cas-server-pg-service-registry",
+  "bugs": "https://github.com/jscas/cas-server-pg-service-registry/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jscas/cas-server-pg-service-registry.git"
+  },
+  "author": "James Sumners",
+  "license": "MIT",
+  "dependencies": {
+    "cas-server-registries-db": "jscas/cas-server-registries-db"
+  }
+}
