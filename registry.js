@@ -11,7 +11,7 @@ let server;
 module.exports.name = 'pgServiceRegistry';
 module.exports.plugin = function plugin(conf, context) {
   if (!db) {
-    db = registriesDB(conf.db);
+    db = registriesDB(context.dataSources.knex);
   }
   if (!registry) {
     registry = new Registry(db, conf, context.logger);
