@@ -14,7 +14,7 @@ module.exports.plugin = function plugin(conf, context) {
     db = registriesDB(context.dataSources.knex);
   }
   if (!registry) {
-    registry = new Registry(db, conf, context.logger);
+    registry = new Registry(db, context.logger);
   }
 
   return registry;
