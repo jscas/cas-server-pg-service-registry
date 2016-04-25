@@ -1,6 +1,6 @@
 {
   "name": "cas-server-pg-service-registry",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Provides a reference cas-server service registry backed by a PostgreSQL DB",
   "main": "registry.js",
   "scripts": {
